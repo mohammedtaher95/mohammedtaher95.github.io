@@ -1,0 +1,182 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 128px;
+    position: relative;
+    background-color: var(--bg-1);
+    overflow: hidden;
+  }
+  
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .header .div {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .c {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--logo-m-font-family);
+    font-weight: var(--logo-m-font-weight);
+    color: var(--brand-1);
+    font-size: var(--logo-m-font-size);
+    letter-spacing: var(--logo-m-letter-spacing);
+    line-height: var(--logo-m-line-height);
+    white-space: nowrap;
+    font-style: var(--logo-m-font-style);
+  }
+  
+  .header .sinan-tokmak {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--logo-m-font-family);
+    font-weight: var(--logo-m-font-weight);
+    color: var(--white);
+    font-size: var(--logo-m-font-size);
+    letter-spacing: var(--logo-m-letter-spacing);
+    line-height: var(--logo-m-line-height);
+    white-space: nowrap;
+    font-style: var(--logo-m-font-style);
+  }
+  
+  .header .div-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .div-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .menu-item {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--menu-m-font-family);
+    font-weight: var(--menu-m-font-weight);
+    color: var(--white);
+    font-size: var(--menu-m-font-size);
+    letter-spacing: var(--menu-m-letter-spacing);
+    line-height: var(--menu-m-line-height);
+    white-space: nowrap;
+    font-style: var(--menu-m-font-style);
+  }
+  
+  .header .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--menu-m-font-family);
+    font-weight: var(--menu-m-font-weight);
+    color: var(--brand-1);
+    font-size: var(--menu-m-font-size);
+    letter-spacing: var(--menu-m-letter-spacing);
+    line-height: var(--menu-m-line-height);
+    white-space: nowrap;
+    font-style: var(--menu-m-font-style);
+  }
+  
+  .header .search {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 6px 16px 6px 168px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--white);
+    border-radius: 24px;
+  }
+  
+  .header .img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .header .icon-search {
+    position: relative;
+    height: 20px;
+  }
+  
+  .header .shape {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .icon-instagram {
+    background-image: url(./img/icon-instagram.svg);
+    background-size: 100% 100%;
+    color: var(--brand-1);
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .header .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--media-m-font-family);
+    font-weight: var(--media-m-font-weight);
+    color: var(--white);
+    font-size: var(--media-m-font-size);
+    letter-spacing: var(--media-m-letter-spacing);
+    line-height: var(--media-m-line-height);
+    white-space: nowrap;
+    font-style: var(--media-m-font-style);
+  }
+  
+  .header .line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .header .line-2 {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    /* width: 100%; */
+    height: 1px;
+    margin-top: -1.00px;
+    object-fit: cover;
+  }
+
+  a {
+    text-decoration: none;  /* Removes underline */
+  }
+
+  
+  /* Active link (when clicked) */
+  a:active {
+    color: var(--brand-2);  /* Change this to your preferred color */
+  }
