@@ -1,3 +1,4 @@
+
 .header {
     display: flex;
     flex-direction: column;
@@ -179,4 +180,76 @@
   /* Active link (when clicked) */
   a:active {
     color: var(--brand-2);  /* Change this to your preferred color */
+  }
+
+  /* Responsive adjustments */
+@media screen and (max-width: 1024px) {
+    .header {
+      padding: 0px 64px;
+    }
+  
+    .header .container {
+      padding: 32px 0px;
+    }
+  
+    .header .div-2 {
+      gap: 32px;
+    }
+  
+    .header .div-3 {
+      gap: 16px;
+    }
+  
+    .header .search {
+      padding: 6px 16px 6px 100px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header {
+      padding: 0px 32px;
+    }
+  
+    .header .container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .header .div-2 {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .header .div-3 {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .header .search {
+      display: none;
+      width: 100%;
+      padding: 6px 16px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header {
+      padding: 0px 16px;
+    }
+  
+    .header .container {
+      padding: 16px 0px;
+    }
+  
+    .header .menu-item,
+    .header .text-wrapper-2,
+    .header .text-wrapper-3 {
+      font-size: 14px;
+    }
+  
+    .header .c,
+    .header .sinan-tokmak {
+      font-size: 18px;
+    }
   }

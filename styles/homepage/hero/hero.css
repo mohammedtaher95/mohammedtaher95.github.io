@@ -1,3 +1,36 @@
+@media screen and (max-width: 500px) {
+  .hero {
+    /* display: block; */
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .hero .container, .hero .content {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .hero .developer {
+    display: none;
+  }
+
+  .hero .highlights {
+    display: unset;
+    flex-direction: row;
+    gap: 24px;
+    padding: 32px 16px;
+  }
+
+  .hero .navigation-bar {
+    display: none;
+    visibility: hidden;
+  }
+
+  .hero .left {
+    align-self: center;
+  }
+}
+
 .hero {
   display: flex;
   align-items: flex-start;
@@ -56,7 +89,7 @@
 }
 
 .hero .left {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   /* width: 50%;
   height: 50%;  */
