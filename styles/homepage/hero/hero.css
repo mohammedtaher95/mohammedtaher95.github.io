@@ -16,7 +16,7 @@
 
   .hero .highlights {
     display: unset;
-    flex-direction: row;
+    flex-direction: column;
     gap: 24px;
     padding: 32px 16px;
   }
@@ -27,7 +27,21 @@
   }
 
   .hero .left {
-    align-self: center;
+    /* align-self: flex-start; */
+    flex-direction: column;
+  }
+
+  .hero .right {
+    flex-direction: column;
+  }
+
+  .hero .info {
+    flex-direction: row;
+  }
+
+  .hero .text-wrapper-6, .hero .text-wrapper-7,
+  .hero .span {
+    font-size: var(--h2-u-font-size);
   }
 }
 
@@ -93,7 +107,7 @@
   flex-direction: column;
   /* width: 50%;
   height: 50%;  */
-  align-self: flex-start;
+  /* align-self: flex-start; */
   justify-content: center;
   gap: 32px;
   padding: 24px;

@@ -56,6 +56,22 @@
     font-style: var(--logo-m-font-style);
   }
   
+  .header .menu-1 {
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .header .menu-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
   .header .div-2 {
     display: inline-flex;
     align-items: center;
@@ -112,6 +128,7 @@
   
   .header .img {
     position: relative;
+    color: var(--brand-1);
     width: 20px;
     height: 20px;
   }
@@ -129,10 +146,12 @@
     left: 2px;
   }
   
-  .icon-instagram {
-    background-image: url(./img/icon-instagram.svg);
+  svg path {
+    /* background-image: url(./img/icon-instagram.svg); */
     background-size: 100% 100%;
     color: var(--brand-1);
+    background-color: var(--white);
+    fill: var(--brand-1);
     position: relative;
     width: 20px;
     height: 20px;
@@ -240,6 +259,7 @@
   
     .header .container {
       padding: 16px 0px;
+      flex-direction: row;
     }
   
     .header .menu-item,
@@ -247,9 +267,25 @@
     .header .text-wrapper-3 {
       font-size: 14px;
     }
+
+    .header .div-2 {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header .menu-1 {
+      gap: 24px;
+      right: 10px;
+    }
+
+    .header .menu-2 {
+      display: none;
+    }
   
     .header .c,
     .header .sinan-tokmak {
-      font-size: 18px;
+      font-size: var(--media-m-font-size);
+      left: 10px;
     }
   }
