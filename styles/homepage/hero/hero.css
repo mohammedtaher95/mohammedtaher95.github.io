@@ -39,10 +39,28 @@
     flex-direction: row;
   }
 
-  .hero .text-wrapper-6, .hero .text-wrapper-7,
-  .hero .span {
-    font-size: var(--h2-u-font-size);
+  .hero .title, 
+  .hero .text-wrapper-5,
+  .hero .text-wrapper-8,
+  .CTA,
+  .hero .text-2,
+  .hero .para,
+  .hero .p,
+  .hero .let-s-talk,
+  .hero .icon-mail-wrapper
+  {
+    display: none;
   }
+
+  /* .hero .text-wrapper-6, .hero .text-wrapper-7,
+  .hero .span, .hero .i-m-sinan, .hero .text{
+    font-family: var(--h2-u-font-family);
+    font-weight: var(--h2-u-font-weight);
+    font-size: var(--h2-u-font-size);
+    letter-spacing: var(--h2-u-letter-spacing);
+    line-height: var(--h2-u-line-height);
+    font-style: var(--h2-u-font-style);
+  } */
 }
 
 .hero {
