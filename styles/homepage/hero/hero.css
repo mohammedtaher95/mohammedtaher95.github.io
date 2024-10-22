@@ -69,6 +69,23 @@
     flex-direction: row;
     gap: 32px;
   }
+
+  .hero .right {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .hero .info {
+    align-items: center;
+  }
+  
+}
+
+@media screen and (max-width: 1280px) { 
+  .hero .container, .hero .content {
+    flex-direction: column;
+    gap: 32px;
+  }
   
 }
 
