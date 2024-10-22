@@ -1,0 +1,512 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+    padding: 128px 0px 128px 0px;
+    position: relative;
+    background-image: url(./img/about-me.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .about-me .module-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .about-me .scroll {
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -5.77px;
+  }
+  
+  .about-me .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 0px 32px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .about-me .content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me .title {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 16px 40px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--bg-1);
+    border-radius: 40px 0px 40px 0px;
+    border: 4px solid;
+    border-color: var(--brand-1);
+  }
+  
+  .about-me .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -4.00px;
+    font-family: var(--h1-u-font-family);
+    font-weight: var(--h1-u-font-weight);
+    color: var(--white);
+    font-size: var(--h1-u-font-size);
+    letter-spacing: var(--h1-u-letter-spacing);
+    line-height: var(--h1-u-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-u-font-style);
+  }
+  
+  .about-me .text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px 40px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--bg-1);
+    border-radius: 40px;
+  }
+  
+  .about-me .p {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--code-m-font-family);
+    font-weight: var(--code-m-font-weight);
+    color: var(--brand-2);
+    font-size: var(--code-m-font-size);
+    letter-spacing: var(--code-m-letter-spacing);
+    line-height: var(--code-m-line-height);
+    white-space: nowrap;
+    font-style: var(--code-m-font-style);
+  }
+  
+  .about-me .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: flex-start;
+    /* gap: 16px; */
+  }
+  
+  /* .about-me .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "IBM Plex Mono-Medium", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+  } */
+  
+  .about-me .span {
+    font-weight: var(--logo-m-font-weight);
+    color: #12f7d6;
+    line-height: var(--logo-m-line-height);
+    font-family: var(--logo-m-font-family);
+    font-style: var(--logo-m-font-style);
+    letter-spacing: var(--logo-m-letter-spacing);
+    font-size: var(--logo-m-font-size);
+  }
+  
+  .about-me .text-wrapper-2 {
+    font-family: var(--para-m-font-family);
+    color: #ffffff;
+    font-size: var(--para-m-font-size);
+    line-height: var(--para-m-line-height);
+    font-style: var(--para-m-font-style);
+    font-weight: var(--para-m-font-weight);
+    letter-spacing: var(--para-m-letter-spacing);
+  }
+  
+  .about-me .text-wrapper-3 {
+    font-family: var(--para-m-font-family);
+    color: #12f7d6;
+    font-size: var(--para-m-font-size);
+    line-height: var(--para-m-line-height);
+    font-style: var(--para-m-font-style);
+    font-weight: var(--para-m-font-weight);
+    letter-spacing: var(--para-m-letter-spacing);
+  }
+  
+  .about-me .p-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--code-m-font-family);
+    font-weight: var(--code-m-font-weight);
+    color: var(--brand-2);
+    font-size: var(--code-m-font-size);
+    letter-spacing: var(--code-m-letter-spacing);
+    line-height: var(--code-m-line-height);
+    white-space: nowrap;
+    font-style: var(--code-m-font-style);
+  }
+  
+  .about-me .image {
+    position: relative;
+    align-self: flex-end;
+    flex: 0 0 auto;
+    border-radius: 16px;
+    /* background-image: url(./img/Image.png); */
+    background-size: cover;
+    /* background-position: 50% 50%; */
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .about-me {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 64px;
+      padding: 64px 24px;
+      position: relative;
+      background-image: url(./img/about-me.svg);
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+    
+    .about-me .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      gap: 64px 64px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+    
+    .about-me .content {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 32px;
+      position: relative;
+      flex: 0 0 auto;
+      margin-left: -65.00px;
+      margin-right: -65.00px;
+    }
+    
+    .about-me .title {
+      display: inline-flex;
+      align-items: flex-start;
+      padding: 16px 40px;
+      position: relative;
+      flex: 0 0 auto;
+      background-color: var(--bg-1);
+      border-radius: 40px 0px 40px 0px;
+      border: 4px solid;
+      border-color: var(--brand-1);
+    }
+    
+    .about-me .text-wrapper {
+      position: relative;
+      width: fit-content;
+      margin-top: -4.00px;
+      font-family: var(--h2-u-font-family);
+      font-weight: var(--h2-u-font-weight);
+      color: var(--white);
+      font-size: var(--h2-u-font-size);
+      letter-spacing: var(--h2-u-letter-spacing);
+      line-height: var(--h2-u-line-height);
+      white-space: nowrap;
+      font-style: var(--h2-u-font-style);
+    }
+    
+    .about-me .text {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 24px;
+      position: relative;
+      flex: 0 0 auto;
+      background-color: var(--bg-1);
+      border-radius: 40px;
+    }
+    
+    .about-me .p {
+      position: relative;
+      width: fit-content;
+      margin-top: -1.00px;
+      font-family: var(--code-m-font-family);
+      font-weight: var(--code-m-font-weight);
+      color: var(--brand-2);
+      font-size: var(--code-m-font-size);
+      letter-spacing: var(--code-m-letter-spacing);
+      line-height: var(--code-m-line-height);
+      white-space: nowrap;
+      font-style: var(--code-m-font-style);
+    }
+    
+    .about-me .flexcontainer {
+      display: flex;
+      flex-direction: column;
+      width: 296px;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    
+    /* .about-me .div {
+      position: relative;
+      align-self: stretch;
+      font-family: "IBM Plex Mono-Medium", Helvetica;
+      font-weight: 400;
+      color: transparent;
+      font-size: 32px;
+      letter-spacing: 0;
+      line-height: 32px;
+    } */
+    
+    .about-me .span {
+      font-weight: var(--logo-m-font-weight);
+      color: #12f7d6;
+      line-height: var(--logo-m-line-height);
+      font-family: var(--logo-m-font-family);
+      font-style: var(--logo-m-font-style);
+      letter-spacing: var(--logo-m-letter-spacing);
+      font-size: var(--logo-m-font-size);
+    }
+    
+    .about-me .text-wrapper-2 {
+      font-family: var(--para-m-font-family);
+      color: #ffffff;
+      font-size: var(--para-m-font-size);
+      line-height: var(--para-m-line-height);
+      font-style: var(--para-m-font-style);
+      font-weight: var(--para-m-font-weight);
+      letter-spacing: var(--para-m-letter-spacing);
+    }
+    
+    .about-me .text-wrapper-3 {
+      font-family: var(--para-m-font-family);
+      color: #12f7d6;
+      font-size: var(--para-m-font-size);
+      line-height: var(--para-m-line-height);
+      font-style: var(--para-m-font-style);
+      font-weight: var(--para-m-font-weight);
+      letter-spacing: var(--para-m-letter-spacing);
+    }
+    
+    .about-me .p-2 {
+      position: relative;
+      width: fit-content;
+      font-family: var(--code-m-font-family);
+      font-weight: var(--code-m-font-weight);
+      color: var(--brand-2);
+      font-size: var(--code-m-font-size);
+      letter-spacing: var(--code-m-letter-spacing);
+      line-height: var(--code-m-line-height);
+      white-space: nowrap;
+      font-style: var(--code-m-font-style);
+    }
+    
+    .about-me .image {
+      display: none;
+      position: relative;
+      width: auto;
+      height: auto;
+      align-self: flex-end;
+      flex: 0 0 auto;
+      margin-left: -29.00px;
+      margin-right: -29.00px;
+      border-radius: 16px;
+      background-image: url(./img/image.png);
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+    
+    
+  }
+
+  /* @media screen and (max-width: 768px) {
+
+    .about-me {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 64px;
+      padding: 64px;
+      position: relative;
+      background-image: url(./img/about-me.svg);
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+    
+    .about-me .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 64px 64px;
+      padding: 0px 64px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+    
+    .about-me .content {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 64px;
+      position: relative;
+      flex: 0 0 auto;
+      margin-left: -54.00px;
+      margin-right: -54.00px;
+    }
+    
+    .about-me .title {
+      display: inline-flex;
+      align-items: flex-start;
+      padding: 16px 40px;
+      position: relative;
+      flex: 0 0 auto;
+      background-color: var(--bg-1);
+      border-radius: 40px 0px 40px 0px;
+      border: 4px solid;
+      border-color: var(--brand-1);
+    }
+    
+    .about-me .text-wrapper {
+      position: relative;
+      width: fit-content;
+      margin-top: -4.00px;
+      font-family: var(--h1-u-font-family);
+      font-weight: var(--h1-u-font-weight);
+      color: var(--white);
+      font-size: var(--h1-u-font-size);
+      letter-spacing: var(--h1-u-letter-spacing);
+      line-height: var(--h1-u-line-height);
+      white-space: nowrap;
+      font-style: var(--h1-u-font-style);
+    }
+    
+    .about-me .text {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 24px 40px;
+      position: relative;
+      flex: 0 0 auto;
+      background-color: var(--bg-1);
+      border-radius: 40px;
+    }
+    
+    .about-me .p {
+      position: relative;
+      width: fit-content;
+      margin-top: -1.00px;
+      font-family: var(--code-m-font-family);
+      font-weight: var(--code-m-font-weight);
+      color: var(--brand-2);
+      font-size: var(--code-m-font-size);
+      letter-spacing: var(--code-m-letter-spacing);
+      line-height: var(--code-m-line-height);
+      white-space: nowrap;
+      font-style: var(--code-m-font-style);
+    }
+    
+    .about-me .flexcontainer {
+      display: flex;
+      flex-direction: column;
+      width: 540px;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    
+    .about-me .div {
+      position: relative;
+      align-self: stretch;
+      font-family: "IBM Plex Mono-Medium", Helvetica;
+      font-weight: 400;
+      color: transparent;
+      font-size: 32px;
+      letter-spacing: 0;
+      line-height: 32px;
+    }
+    
+    .about-me .span {
+      font-weight: var(--logo-m-font-weight);
+      color: #12f7d6;
+      line-height: var(--logo-m-line-height);
+      font-family: var(--logo-m-font-family);
+      font-style: var(--logo-m-font-style);
+      letter-spacing: var(--logo-m-letter-spacing);
+      font-size: var(--logo-m-font-size);
+    }
+    
+    .about-me .text-wrapper-2 {
+      font-family: var(--para-m-font-family);
+      color: #ffffff;
+      font-size: var(--para-m-font-size);
+      line-height: var(--para-m-line-height);
+      font-style: var(--para-m-font-style);
+      font-weight: var(--para-m-font-weight);
+      letter-spacing: var(--para-m-letter-spacing);
+    }
+    
+    .about-me .text-wrapper-3 {
+      font-family: var(--para-m-font-family);
+      color: #12f7d6;
+      font-size: var(--para-m-font-size);
+      line-height: var(--para-m-line-height);
+      font-style: var(--para-m-font-style);
+      font-weight: var(--para-m-font-weight);
+      letter-spacing: var(--para-m-letter-spacing);
+    }
+    
+    .about-me .p-2 {
+      position: relative;
+      width: fit-content;
+      font-family: var(--code-m-font-family);
+      font-weight: var(--code-m-font-weight);
+      color: var(--brand-2);
+      font-size: var(--code-m-font-size);
+      letter-spacing: var(--code-m-letter-spacing);
+      line-height: var(--code-m-line-height);
+      white-space: nowrap;
+      font-style: var(--code-m-font-style);
+    }
+    
+    .about-me .image {
+      display: none;
+      position: relative;
+      flex: 0 0 auto;
+      border-radius: 16px;
+      background-image: url(./img/image.png);
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+    
+  } */
+  
